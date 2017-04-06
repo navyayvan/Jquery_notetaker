@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>note-taker</title>
+  <link rel='stylesheet' href='./css/style.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type='text/javascript' src='./js/app.js'> </script>
+</head>
+<body>
+  <h1>Note-taker </h1>
+
+  <form id='noteTaker'>
+      <input type='radio' value='blue' name='color'/> <span class='color' id='blue'> Work </span>
+      <input type='radio' value='green' name='color'/> <span class='color' id='green'> School</span>
+      <input type='radio' value='purple' name='color'/> <span class='color' id='purple'> Family </span>
+      <input type='radio' value='black' name='color'/> <span class='color' id='black' > Personal </span>
+    <textarea id='noteInput' type='text' placeholder='Begin note here...' ></textarea>
+    <input type='submit' id='submit'/>
+  </form>
+  
+  <ul id='noteList'>
+  </ul>
+
+</body>
+</html>

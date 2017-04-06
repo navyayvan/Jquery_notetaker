@@ -1,0 +1,72 @@
+#black {
+  color: black;
+}
+
+
+.black {
+  color: black;
+}
+
+#blue {
+  color: blue;
+}
+
+.blue {
+  color: blue;
+}
+
+body {
+  font-family: tahoma, sans-serif;
+  font-size: 1.4em;
+}
+
+#colorPicker li {
+  display: inline;
+  list-style-type: none;
+}
+
+.datestamp {
+  font-size: 0.75em;
+  color: black;
+}
+
+#editVal {
+  height: 200px;
+  width: 300px;
+}
+
+#green  {
+  color: green;
+}
+
+.green {
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+#noteInput {
+  height: 300px;
+  width: 300px;
+}
+
+#noteList {
+  float: left;
+}
+
+#noteTaker {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+#purple {
+  color: purple;
+}
+
+.purple {
+  color: purple;
+}
+
